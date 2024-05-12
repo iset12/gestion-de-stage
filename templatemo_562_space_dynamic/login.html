@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="header__logo">
+        <strong><img src="c:\Users\ACER\Pictures\Screenshot 2024-05-07 225517.png"></strong>
+    </div>
+    <nav class="navbar">
+
+    <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#" class="navbar__link"><i data-feather="home"></i><span>Home</span> </a>
+        </li>
+        <li class="navbar__item">
+          <a href="#" class="navbar__link"><i data-feather="message-square"></i><span>Log in</span></a>        
+        </li>
+
+        <li class="navbar__item">
+            <a href="#" class="navbar__link dropdown-toggle"><i data-feather="users"></i><span>Student list</span></a>  
+            <!-- Menu déroulant imbriqué -->
+            <ul class="dropdown-menu">
+                <li><a href="#">1st</a></li>
+                <li><a href="#">2nd</a></li>
+                <li><a href="#">3rd</a></li>
+            </ul>      
+        </li>
+        
+        
+
+        <li class="navbar__item">
+            <a href="#" class="navbar__link dropdown-toggle"><i data-feather="archive"><span>Establishment</span></a>  
+            <!-- Menu déroulant imbriqué -->
+            <ul class="dropdown-menu">
+                <li><a href="#">Add</a></li>
+                <li><a href="#">Modify</a></li>
+                <li><a href="#">Delete</a></li>
+            </ul>      
+        </li>
+
+        <li class="navbar__item">
+          <a href="#" class="navbar__link"><i data-feather="help-circle"></i><span>Help</span></a>        
+        </li>
+      </ul>
+    </nav>
+</div>
+
+
+</body>
+</html>
