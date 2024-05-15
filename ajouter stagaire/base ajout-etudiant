@@ -1,0 +1,11 @@
+CREATE TABLE Stagiaires (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(255),
+    prenom VARCHAR(255),
+    date_naissance DATE,
+    ville VARCHAR(255),
+    adresse VARCHAR(255),
+    sexe ENUM('homme', 'femme'),
+    formation VARCHAR(255),
+    encadrant VARCHAR(255)
+);
